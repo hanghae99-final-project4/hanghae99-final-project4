@@ -1,4 +1,3 @@
-﻿# hanghae99-final-project4
 # 챕터 6
 
 ## 9기 실전프로젝트, 항해 99
@@ -10,6 +9,4 @@
 - 사용 편집기 : Visual Studio Code(vscode)
 - 언어 및 프레임워크와 라이브러리 : 
 FE: React, Javascript, styled-component, tailwind
-BE: 
-
-### 폴더구조
+BE: nodejs,Javascript,JWT,PASSPORT,mySQL,swagger,socketio
