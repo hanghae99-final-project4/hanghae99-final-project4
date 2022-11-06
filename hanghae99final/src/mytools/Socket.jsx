@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-export const socket = io("https://cheolsu.shop/", {
+export const socket = io("http://52.79.195.173", {
   transports: ["websocket"],
 });
 export const initSocketConnection = () => {

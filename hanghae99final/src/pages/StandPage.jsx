@@ -1,7 +1,7 @@
 import React from "react";
-import StandPerson from "../components/standSitdown/StandPerson";
-import { Header } from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+import StandPerson from "../Components/standSitdown/StandPerson";
+import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 const StandPage = () => {
   return (
     <>
