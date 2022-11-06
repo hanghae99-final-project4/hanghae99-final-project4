@@ -4,15 +4,7 @@ import { useState } from "react";
 import { io } from "socket.io-client";
 import axios from "axios";
 const MainPage = () => {
-  const socket = io("https://cheolsu.shop", {
-    transports: ["websocket"],
-  });
   const [message, setMessage] = useState("");
-  const messageSendHandler = () => {
-    socket.emit("hey", message);
-    // console.log(message);
-    // socket.on("hi", (data) => console.log(data));
-  };
 
   const GetChats = async () => {
     try {
